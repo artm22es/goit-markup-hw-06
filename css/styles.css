@@ -509,13 +509,24 @@ ol {
 }
 
 .ftr-subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
   min-width: 165px;
   height: 40px;
+  border: none;
   background-color: var(--decoration-color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #FFFFFF;
   padding: 8px 24px;
+  transition: background-color var(--transition-dur-and-func);
+}
+
+.ftr-subscribe-btn:hover,
+.ftr-subscribe-btn:focus {
+  background-color: #404bbf;
 }
 
 
