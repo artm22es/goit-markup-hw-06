@@ -709,9 +709,6 @@ ol {
   background-color: var(--accent-color);
   border: 1px solid #404BBF;
   border-radius: 2px;
-  background-image: url(../images/checked.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
 
 .modal-form-submit {
