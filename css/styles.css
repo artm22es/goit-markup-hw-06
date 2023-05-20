@@ -425,7 +425,7 @@ ol {
   color: #4d5ae5;
 }
 
-.logo-right-ftr {
+.logo-footer-right {
   color: #f4f4fd;
 }
 
@@ -437,25 +437,25 @@ ol {
   color: #f4f4fd;
 }
 
-.footer-left-side {
+.footer-first-wrapper {
   display: inline-block;
   margin-right: 120px;
 }
 
-.social-list-ft {
+.social-list-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
 
-.ft-right-title {
+.footer-second-title {
   margin-bottom: 16px;
   font-weight: 500;
   color: #ffffff;
 }
 
-.social-link-item-ft {
+.social-link-item-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -466,22 +466,22 @@ ol {
   transition: background-color var(--transition-dur-and-func);
 }
 
-.social-link-item-ft:hover,
-.social-link-item-ft:focus {
+.social-link-item-footer:hover,
+.social-link-item-footer:focus {
   background-color: #31d0aa;
 }
 
-.ftr-subscribe-wrapper {
+.footer-third-wrapper {
   margin-left: 80px;
 }
 
-.ftr-subscribe-title {
+.footer-subscribe-title {
   margin-bottom: 16px;
   font-weight: 500;
   color: #ffffff;
 }
 
-.ftr-form {
+.footer-form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -489,7 +489,7 @@ ol {
 
 }
 
-.ftr-form-input {
+.footer-form-input {
   min-width: 264px;
   height: 40px;
   color: #FFFFFF;
@@ -501,14 +501,14 @@ ol {
 }
 
 
-.ftr-form-input::placeholder {
+.footer-form-input::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
   color: #FFFFFF;
 }
 
-.ftr-subscribe-btn {
+.footer-subscribe-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -524,8 +524,8 @@ ol {
   transition: background-color var(--transition-dur-and-func);
 }
 
-.ftr-subscribe-btn:hover,
-.ftr-subscribe-btn:focus {
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
   background-color: #404bbf;
 }
 
